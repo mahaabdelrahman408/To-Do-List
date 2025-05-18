@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+
+    <title>Todos</title>
+    <link rel="icon" href="photo/istockphoto-1746104990-612x612.jpg" type="image/png">
+   
+    <link rel="stylesheet" href="style/all.min.css">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/index.css">
+    
+</head>
+<body >
+
+<div class="w-75 mx-auto p-5 shadow-lg m-5 box-light">
+  
+     <h2 class="text-center  display-6 gloria">My Todos</h2>
+  <div class="input-group mb-4">
+    <input type="text" class="form-control placeholder-light " id="taskInput" placeholder="New Task ....." >
+    <button class="btn custom-yellow" type="button" id="addBtn">ADD</button>
+  </div>
+
+  <div class="d-flex align-items-center gap-3 w-100">
+    
+
+    <input type="text" class="form-control placeholder-light" placeholder="Search" aria-label="Search" id="SearchInput">
+
+ 
+    <div class="input-group">
+   
+      <select class="form-select w-100" id="mySelect" >
+        <option   data-value="All">All</option>
+        <option   data-value="Completed">Completed</option>
+        <option   data-value="Uncompleted">Uncompleted</option>
+      </select>
+    </div>
+  </div>
+ <div id="tasks" class="text-center">
+
+   
+  
+
+ </div>
+</div>
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+body{
+    background-image: url(../photo/premium_photo-1683309568772-57011d6c1b7b.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+
+}
+.box-light {
+  background-color: rgba(255, 255, 255, 0.6); /* أبيض شفاف */
+  border-radius: 10px;
+}
+
+
+.placeholder-light::placeholder {
+  color: #ccc; /* أو أي لون خفيف */
+  opacity: 1;
+}
+
+.tasks{
+    background-color:#a6be47;
+}
+.custom-yellow {
+  background-color: #E3BD33;
+  color: black;
+  border: none;
+}
+
+.custom-yellow:hover {
+  background-color: #cfae2e; /* أغمق شوية للهوفر */
+}
+
+.gloria {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-weight: bold;
+  color:   #caa41c;
+}
+
+.completed{
+text-decoration: line-through;
+}
+.bg-task{
+  background-color: #E2552D;
+}
