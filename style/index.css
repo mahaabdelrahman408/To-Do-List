@@ -1,9 +1,17 @@
+*{
+  box-sizing: border-box;
+}
+
+
+
 body{
     background-image: url(../photo/premium_photo-1683309568772-57011d6c1b7b.avif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    
+      min-height: 100vh;
+
+   
 
 
 }
@@ -43,3 +51,24 @@ text-decoration: line-through;
 .bg-task{
   background-color: #E2552D;
 }
+/* ***************************************************** */
+@media (max-width: 576px) {
+  .box-light {
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  .input-group,
+  .form-control,
+  select,
+  button {
+    font-size: 14px;
+  }
+
+  .gloria {
+    font-size: 1.2rem;
+  }
+}
+
+
+
